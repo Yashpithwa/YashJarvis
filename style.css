@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto Mono,monospace;
+    box-sizing: border-box;
+}
+.main
+{
+    
+ min-height:  100vh;
+   width: 100%;
+   position: relative;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color: #dcdcdc;
+}
+.imgcontainer
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    text-align: center;
+
+}
+button
+{
+    height: 30px;
+    width: 30px;
+}
+button:hover
+{
+    background-color: #3c3c3c;
+
+}
+.img
+{
+     margin-right: 50px;
+    width: 100%;
+   height: auto;
+}
+.input
+{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   height: 40px;
+   width:  450px;
+    border-radius: 25px;
+    background-color:#3c3c3c;
+    border: none;
+    gap: 15px;
+
+}
+.listen
+{
+    background: transparent;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .img
+    {
+        margin-right: 100px;
+    }
+    .input {
+        width: 100%;
+    }
+}
